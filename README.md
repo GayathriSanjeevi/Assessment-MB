@@ -1,1 +1,4 @@
-# Assessment-MB
+
+Simple QA bot using Flask
+Web page -- user interface -- written in chat.html --- set of questions are displayed in dropdown menu format from which user can select a particular question
+app.py -- server side -- used flask to get the question by the user and sending response by finding the similarity between the input question and data in hand using cosine similarity
