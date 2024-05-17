@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Hi, I am a QA bot.</h1>
+</head>
+<body>
+    <form method='POST' action="/get">
+        <label for="Questions"> U can ask me questions in Python.</label>
+        <select id="Questions" name="Questions">
+          <option value="select">Select a Question</option>
+          <option value="Q1">How python has gained widespread use?</option>
+          <option value="Q2">Who invented Python?</option>
+          <option value="Q3">List of arithmetic operators with symbols</option>
+          <option value="Q4">Latest version of python in 2023</option>
+          <option value="Q5">Methods in Python</option>
+          <option value="Q6">Does python work with interpreter or compiler</option>
+          <option value="Q7">Python widely used in</option>
+          <option value="Q8">Is python a OOP?</option>
+        </select>
+        <button type="submit">Submit</button>
+  </form>
+      {% if result %}
+    <div>
+        <p>{{ result }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>
+
